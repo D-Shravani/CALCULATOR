@@ -10,8 +10,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat 'echo 6 7  |
-                java Calculator'
+                bat 'echo 6 7  | java Calculator'
             }
         }
     }
